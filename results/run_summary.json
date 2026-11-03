@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-03",
+  "python": "3.11.14",
+  "implementation": "CPython",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "interpreter_flags": [
+    "-I",
+    "-B"
+  ],
+  "scope": "Finite analytic-identity and numerical diagnostics; no formal verification.",
+  "manuscript_sha256": "396ada5b6bf217cc16f66163111287ef2f4894d2e1d4edc3121a91ecec2d4905",
+  "checks": [
+    {
+      "script": "checks/exact_rational_checks.py",
+      "script_sha256": "41cd75bc7c65e310c903a26e3d8d7d8c69bca0f9139051f6c4d1d70c378824e9",
+      "exit_code": 0,
+      "passed": true,
+      "log": "exact_rational_log.txt",
+      "report": "exact_rational_checks.json",
+      "report_summary": {
+        "status": "PASS",
+        "checks_evaluated": 15717,
+        "checks_failed": 0
+      },
+      "elapsed_seconds": 0.08
+    },
+    {
+      "script": "checks/second_exact_checks.py",
+      "script_sha256": "4fd3c21f33b979982a34bcece49168d80546da26c193f8721246f4511874cb79",
+      "exit_code": 0,
+      "passed": true,
+      "log": "second_exact_log.txt",
+      "report": "second_exact_checks.json",
+      "report_summary": {
+        "status": "PASS",
+        "checks_evaluated": 26676,
+        "checks_failed": 0
+      },
+      "elapsed_seconds": 0.11
+    },
+    {
+      "script": "checks/check_convex_polygons.py",
+      "script_sha256": "a2cda4dc6a8abb1200435758d6e8beb1c6c538748de54f8ebd2a262fcdc2a416",
+      "exit_code": 0,
+      "passed": true,
+      "log": "convex_polygon_log.txt",
+      "report": "convex_polygon_checks.json",
+      "report_summary": {
+        "status": "PASS",
+        "checks_evaluated": 4688,
+        "checks_failed": 0
+      },
+      "elapsed_seconds": 0.59
+    },
+    {
+      "script": "checks/extension_checks.py",
+      "script_sha256": "c904209de7d4727b244e11bc16c0f7e45de82b34dfc122d37c2c8911d69610b6",
+      "exit_code": 0,
+      "passed": true,
+      "log": "extension_log.txt",
+      "report": "extension_checks.json",
+      "report_summary": {
+        "status": "PASS",
+        "checks_evaluated": 41821,
+        "checks_failed": 0
+      },
+      "elapsed_seconds": 31.19
+    }
+  ],
+  "total_checks_evaluated": 88902,
+  "all_passed": true
+}

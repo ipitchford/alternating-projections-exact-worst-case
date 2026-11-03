@@ -1,0 +1,183 @@
+{
+ "schemaVersion": "1.0",
+ "provenance": "Compiled 3 November 2026 for release 0.1.0-candidate from the dated prior-art record (PRIOR_ART.md, 3 November 2026), the internal review searches (REVIEW_SUMMARY.md) and the reference retrieval. It documents the scrutiny performed, not historical priority. No new search was run at release preparation.",
+ "contributionMap": [
+  {
+   "claim": "Upper bound: for closed convex sets in R^d containing a common ball of radius delta, with the start within R of its centre, the distance to the intersection after N cycles never exceeds the Luner-Grimmer formula (Theorem 1), proving their Conjecture 6.2 in every dimension.",
+   "unit": "statement",
+   "paperLocation": "Theorem 1; Sections 2-5",
+   "searches": [
+    {
+     "date": "2026-11-03",
+     "corpus": "arXiv title/abstract search, Crossref and Semantic Scholar citing works of arXiv:2410.14811, web search, GitHub issues/PRs/discussions (gh search), the authors' repository, the Evidence Press corpus (PRIOR_ART.md)",
+     "query": "alternating projection(s) with worst-case, performance estimation, interior, Slater; Luner Grimmer; 2410.14811; Conjecture 6.2; common ball; interior ball"
+    },
+    {
+     "date": "2026-11-03",
+     "corpus": "internal reviewers during review: Crossref, arXiv and Semantic Scholar (REVIEW_SUMMARY.md)",
+     "query": "classical interior-point rates, subspace angle identity, error bounds, performance estimation of alternating projections (Zamani-Glineur)"
+    },
+    {
+     "date": "2026-11-03",
+     "corpus": "api.crossref.org records (crossref_records.jsonl) and the arXiv API",
+     "query": "registry records for every bibliography entry (refs.bib)"
+    }
+   ],
+   "closestPriorWork": "Luner and Grimmer 2024 (arXiv:2410.14811 v1/v2: formula, lower construction Proposition 6.1, Conjecture 6.2); De Bernardi and Miglierina 2021 (non-sharp radius-loss inequality)",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Lower bound: two planar half-planes attain the formula.",
+   "unit": "statement",
+   "paperLocation": "Section 6",
+   "searches": [
+    {
+     "date": "2026-11-03",
+     "corpus": "arXiv title/abstract search, Crossref and Semantic Scholar citing works of arXiv:2410.14811, web search, GitHub issues/PRs/discussions (gh search), the authors' repository, the Evidence Press corpus (PRIOR_ART.md)",
+     "query": "alternating projection(s) with worst-case, performance estimation, interior, Slater; Luner Grimmer; 2410.14811; Conjecture 6.2; common ball; interior ball"
+    }
+   ],
+   "closestPriorWork": "Luner and Grimmer 2024, Proposition 6.1",
+   "verdict": "known-cited"
+  },
+  {
+   "claim": "Exact worst case for unequal radii about a common centre, any number k >= 2 of single projections, and real Hilbert space (Theorem 7); exact worst residual (Theorem 8) with the Zamani-Glineur limit as delta -> 0.",
+   "unit": "statement",
+   "paperLocation": "Section 8, Theorems 7-8",
+   "searches": [
+    {
+     "date": "2026-11-03",
+     "corpus": "arXiv title/abstract search, Crossref and Semantic Scholar citing works of arXiv:2410.14811, web search, GitHub issues/PRs/discussions (gh search), the authors' repository, the Evidence Press corpus (PRIOR_ART.md)",
+     "query": "alternating projection(s) with worst-case, performance estimation, interior, Slater; Luner Grimmer; 2410.14811; Conjecture 6.2; common ball; interior ball"
+    },
+    {
+     "date": "2026-11-03",
+     "corpus": "internal reviewers during review: Crossref, arXiv and Semantic Scholar (REVIEW_SUMMARY.md)",
+     "query": "classical interior-point rates, subspace angle identity, error bounds, performance estimation of alternating projections (Zamani-Glineur)"
+    }
+   ],
+   "closestPriorWork": "Zamani and Glineur 2024 (arXiv:2407.15195: exact residual rate without interiority, recovered as a limit)",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Sharp asymptotic W_N ~ R^4 kappa^(2N)/(8 e delta^2 sqrt(R^2-delta^2) N), critical profile, and practical cycle counts against classical interior-point bounds.",
+   "unit": "statement",
+   "paperLocation": "Sections 7 and 9; Appendix A",
+   "searches": [
+    {
+     "date": "2026-11-03",
+     "corpus": "arXiv title/abstract search, Crossref and Semantic Scholar citing works of arXiv:2410.14811, web search, GitHub issues/PRs/discussions (gh search), the authors' repository, the Evidence Press corpus (PRIOR_ART.md)",
+     "query": "alternating projection(s) with worst-case, performance estimation, interior, Slater; Luner Grimmer; 2410.14811; Conjecture 6.2; common ball; interior ball"
+    },
+    {
+     "date": "2026-11-03",
+     "corpus": "internal reviewers during review: Crossref, arXiv and Semantic Scholar (REVIEW_SUMMARY.md)",
+     "query": "classical interior-point rates, subspace angle identity, error bounds, performance estimation of alternating projections (Zamani-Glineur)"
+    }
+   ],
+   "closestPriorWork": "Gubin, Polyak and Raik 1967 (classical linear rate); Kayalar and Weinert 1988 (exact subspace rate)",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Proof method: two-number state description, monotone value function comparing with the half-plane trajectory, sharp distance-to-intersection error bound (Lemmas 2-4).",
+   "unit": "method",
+   "paperLocation": "Sections 2-5",
+   "searches": [
+    {
+     "date": "2026-11-03",
+     "corpus": "arXiv title/abstract search, Crossref and Semantic Scholar citing works of arXiv:2410.14811, web search, GitHub issues/PRs/discussions (gh search), the authors' repository, the Evidence Press corpus (PRIOR_ART.md)",
+     "query": "alternating projection(s) with worst-case, performance estimation, interior, Slater; Luner Grimmer; 2410.14811; Conjecture 6.2; common ball; interior ball"
+    },
+    {
+     "date": "2026-11-03",
+     "corpus": "internal reviewers during review: Crossref, arXiv and Semantic Scholar (REVIEW_SUMMARY.md)",
+     "query": "classical interior-point rates, subspace angle identity, error bounds, performance estimation of alternating projections (Zamani-Glineur)"
+    }
+   ],
+   "closestPriorWork": "Performance-estimation literature (Drori and Teboulle 2013; Taylor, Hendrickx and Glineur 2016, 2017); bounded linear regularity (Bauschke, Borwein and Li 1999)",
+   "verdict": "new-in-bounded-search"
+  }
+ ],
+ "sourcesReadInFull": [
+  {
+   "citation": "Luner and Grimmer, Performance estimation for smooth and strongly convex sets, arXiv:2410.14811v1 and v2 (2024)",
+   "usedFor": "Exact conjectured formula, normalisation and lower construction (Section 6, Proposition 6.1, Conjecture 6.2)",
+   "readWhat": "Section 6 of v1 and v2; version history including v3 and the journal version",
+   "date": "2026-11-03",
+   "evidenceLocator": "PRIOR_ART.md Source versions; manuscript Section 1.2"
+  },
+  {
+   "citation": "Zamani and Glineur, Exact convergence rate of the subgradient method by using Polyak step size, arXiv:2407.15195 (2024)",
+   "usedFor": "Exact residual rate recovered as the delta -> 0 limit of Theorem 8",
+   "readWhat": "Theorems 4.4 and 4.5 and Algorithm 4.3",
+   "date": "2026-11-03",
+   "evidenceLocator": "manuscript Section 8 (Zamani-Glineur limit)"
+  }
+ ],
+ "limitationTriage": [
+  {
+   "limitation": "Priority holds only within a bounded search.",
+   "closingQuestion": "Has the upper bound been proved elsewhere?",
+   "triedOrSearched": "Dated search of 3 November 2026 across arXiv, Crossref, Semantic Scholar citing works, web and GitHub (PRIOR_ART.md); no author enquiry.",
+   "estimatedCost": "days",
+   "decision": "OPEN",
+   "cheap": false,
+   "reasonOpen": "Exhaustive search and author enquiry are outside this release; disclosed in the paper and README.",
+   "whyNotClosedNow": "Requires contact with the conjecture authors and specialist databases."
+  },
+  {
+   "limitation": "No human peer review and no formal verification.",
+   "closingQuestion": "Would a specialist or a proof assistant confirm Lemmas 2-4 and Theorems 7-8?",
+   "triedOrSearched": "Five internal AI reviewer roles, a second-model adversarial review and audit, a proof audit and a re-review found no correctness issue.",
+   "estimatedCost": "weeks",
+   "decision": "OPEN",
+   "cheap": false,
+   "reasonOpen": "External review and formalisation are outside the publication workflow.",
+   "whyNotClosedNow": "Awaits external specialist review."
+  },
+  {
+   "limitation": "Three or more sets, relaxed projections, balls with different centres and smooth or strongly convex classes remain open.",
+   "closingQuestion": "Does the method extend?",
+   "triedOrSearched": "For three or more sets the key inequality (7) fails (stated in Section 9).",
+   "estimatedCost": "weeks",
+   "decision": "OPEN",
+   "cheap": false,
+   "reasonOpen": "New research.",
+   "whyNotClosedNow": "Beyond the scope of this release."
+  },
+  {
+   "limitation": "Check scripts relied on assert and passed silently under python -O (review objection).",
+   "closingQuestion": "Do all checks fail on planted errors in both modes?",
+   "triedOrSearched": "All checks made explicit; planted errors fail every suite under both modes; replayed with and without -O.",
+   "estimatedCost": "1 hour",
+   "decision": "CLOSED",
+   "cheap": true
+  },
+  {
+   "limitation": "Unequal radii, residual and Hilbert-space versions were left unstated (review objection).",
+   "closingQuestion": "Does the same argument give them exactly?",
+   "triedOrSearched": "Theorems 7 and 8 with exact and randomised checks in checks/extension_checks.py.",
+   "estimatedCost": "hours",
+   "decision": "CLOSED",
+   "cheap": true
+  }
+ ],
+ "extensionScout": {
+  "by": "Internal AI-assisted reviewers and the lead, 3 November 2026",
+  "date": "2026-11-03",
+  "proposals": [
+   "Unequal ball radii",
+   "Any number of projections and Hilbert space",
+   "Exact worst residual and the Zamani-Glineur limit",
+   "Classical baseline and cycle counts",
+   "Distance relative to the initial distance"
+  ],
+  "actions": [
+   "Theorem 7",
+   "Theorem 7 (k >= 2, Hilbert space)",
+   "Theorem 8",
+   "Proposition 9 and the Section 9 table",
+   "Corollary A3"
+  ]
+ }
+}

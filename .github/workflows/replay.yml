@@ -1,0 +1,23 @@
+# SPDX-License-Identifier: MIT
+name: Replay
+on:
+  push:
+  pull_request:
+jobs:
+  checks:
+    name: Exact checks (standard library only; normal and -O)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Check MANIFEST.sha256
+        run: sha256sum -c MANIFEST.sha256
+      - name: run_checks.py (88,902 explicit checks)
+        run: python -I -B run_checks.py --out "$RUNNER_TEMP/normal"
+      - name: run_checks.py under -O (every check is explicit; no assert)
+        run: python -I -B -O run_checks.py --out "$RUNNER_TEMP/opt"
+      - name: Working tree unchanged
+        run: test -z "$(git status --porcelain)"

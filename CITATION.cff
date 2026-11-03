@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Please cite this versioned research candidate by its DOI."
+title: "Exact worst-case convergence of alternating projections with a common interior ball"
+type: software
+authors:
+  - name: Anonymous
+version: 0.1.0-candidate
+doi: 10.5281/zenodo.23922446
+date-released: 2026-11-03
+repository-code: "https://github.com/ipitchford/alternating-projections-exact-worst-case"
+url: "https://evidencepress.org/releases/alternating-projections-exact-worst-case/"
+license:
+  - CC0-1.0
+  - MIT
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23922446
+    description: "Version DOI (0.1.0-candidate)"
+  - type: doi
+    value: 10.5281/zenodo.23922445
+    description: "Concept DOI (all versions)"
+keywords:
+  - alternating projections
+  - POCS
+  - convex feasibility
+  - worst-case convergence
+  - performance estimation
+abstract: "Proves the Luner-Grimmer conjecture (arXiv:2410.14811 v1/v2, Conjecture 6.2): if two closed convex sets contain a common ball of radius delta and the start lies within R of its centre, the worst-case distance to the intersection after N cycles of alternating projections is max over 0 <= c <= kappa of c^(2N-1)(sqrt(R^2-delta^2) - delta sqrt((1+c)/(1-c))), kappa = 1 - 2 delta^2/R^2, in every dimension. Extends the exact answer to balls of different radii about a common centre, any number (at least two) of single projections and real Hilbert space, and gives the exact worst residual, which recovers the Zamani-Glineur rate as delta -> 0. Includes the sharp asymptotic and practical cycle counts (93 exact versus 833 classical at R/delta = 10, accuracy 1e-3). The formula and extremal half-planes are Luner and Grimmer's; the contribution is the upper bound and the extensions. Standard-library check suites (88,902 explicit checks). Unrefereed candidate; internal AI-assisted review only. Text, data and figures CC0-1.0; code MIT."

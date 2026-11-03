@@ -1,0 +1,129 @@
+{
+  "title": "Exact worst-case convergence of alternating projections with a common interior ball",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "<p><strong>Unrefereed research candidate.</strong> In one sentence: this paper proves the Luner&ndash;Grimmer conjecture on the exact worst-case convergence of von Neumann's alternating projections when the two convex sets share an interior ball, in every dimension, and extends the exact answer to unequal balls, any number of projections, Hilbert space and the residual.</p><p>Alternating projections (POCS in signal processing) look for a point in two convex sets by repeatedly moving to the nearest point of one set, then of the other. Suppose both sets contain a common ball of radius &delta; and the start lies within R of its centre. Luner and Grimmer (arXiv:2410.14811, versions 1 and 2, 2024) built two half-planes for which the distance to the intersection after N cycles equals max over 0 &le; c &le; &kappa; of c<sup>2N&minus;1</sup>(&radic;(R<sup>2</sup>&minus;&delta;<sup>2</sup>) &minus; &delta;&radic;((1+c)/(1&minus;c))), with &kappa; = 1 &minus; 2&delta;<sup>2</sup>/R<sup>2</sup>, and conjectured that nothing is worse (Conjecture 6.2). Theorem 1 proves this upper bound for every N and in every dimension by a short hand-checkable argument: each trajectory is tracked by two numbers, compared with the half-plane trajectory through a monotone value function, and closed with a sharp error bound. Theorem 7 gives the exact worst case for balls of different radii about a common centre, after any number (at least two) of single projections, and in real Hilbert space; Theorem 8 gives the exact worst residual, which recovers the exact rate of Zamani and Glineur (2024) as &delta; &rarr; 0. Consequences include the sharp asymptotic R<sup>4</sup>&kappa;<sup>2N</sup>/(8e&delta;<sup>2</sup>&radic;(R<sup>2</sup>&minus;&delta;<sup>2</sup>)N) and practical cycle counts: at R/&delta; = 10 and accuracy 10<sup>&minus;3</sup> the exact worst case needs 93 cycles, against 212 from an elementary bound with the sharp factor and 833 from the classical interior-point bound. The formula and the extremal half-planes are due to Luner and Grimmer; the contribution is the matching upper bound and the extensions.</p><p>The archive contains the manuscript (PDF and Markdown source), figures with their data and plotting script, the PDF build script, four standard-library check suites (88,902 explicit exact-rational and high-precision checks, valid under python -O) with their recorded outputs, a verification record, a claim-by-claim AI index, the dated prior-art search, a rating-free internal review summary, Crossref records and a bibliography, CI and SHA-256 sums. Assurance: written proofs; the computations are finite checks, not proofs; internal AI-assisted review only (not peer review, independent reproduction or formal verification); bounded prior-art search. Open: three or more sets, relaxed projections, balls with different centres, smooth or strongly convex classes. Creator: Anonymous. Text, data and figures CC0-1.0; code MIT.</p>",
+  "creators": [
+    {
+      "name": "Anonymous"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-zero",
+  "version": "0.1.0-candidate",
+  "publication_date": "2026-11-03",
+  "keywords": [
+    "alternating projections",
+    "von Neumann method",
+    "POCS",
+    "convex feasibility",
+    "worst-case convergence",
+    "performance estimation",
+    "interior ball",
+    "Hilbert space"
+  ],
+  "notes": "Code (the .py files and the CI workflow) is MIT; prose, manuscript, figures and data are CC0-1.0.",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ipitchford/alternating-projections-exact-worst-case/tree/v0.1.0-candidate",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://evidencepress.org/releases/alternating-projections-exact-worst-case/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "arXiv:2410.14811",
+      "relation": "references",
+      "scheme": "arxiv"
+    },
+    {
+      "identifier": "10.1109/TAC.2018.2808442",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1007/BF01027691",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1137/S0036144593251710",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1007/s101070050083",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1111/j.1475-3995.2008.00682.x",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1007/s10898-021-01025-y",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1007/978-1-4684-9298-9",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1007/s10107-013-0653-0",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1007/s10107-016-1048-9",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1016/0041-5553(67)90113-9",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1016/j.na.2003.11.004",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1007/BF02551235",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1007/s10107-026-02373-x",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1007/s13160-023-00584-9",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1007/s10107-016-1009-3",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1137/16M108104X",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.48550/arXiv.2407.15195",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ],
+  "doi": "10.5281/zenodo.23922446"
+}

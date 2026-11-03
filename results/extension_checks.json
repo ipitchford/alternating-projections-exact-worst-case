@@ -1,0 +1,399 @@
+{
+  "python": "3.11.14",
+  "seed": 20261103,
+  "decimal_precision": 60,
+  "decimal_tolerance": "1E-45",
+  "search_failure_threshold": "1 + 1E-12",
+  "arithmetic": "Fraction (exact) for rational-angle states in (i)-(iii) and the (vi) trajectories; Decimal with 60 significant digits elsewhere (rounded, not interval arithmetic).",
+  "scope": "Finite diagnostics of the two-radius extension; not a proof of the universally quantified Theorems 7 and 8.",
+  "exact_rational_states": 560,
+  "decimal_random_states": 300,
+  "kappa_trig_max_abs_difference": "9.000e-60",
+  "value_function_comparisons": 10584,
+  "exact_attainment_trajectory_points": 840,
+  "optimal_angle_attainment_cases": 112,
+  "optimal_angle_attainment_max_rel_error": "4.800e-59",
+  "search": {
+    "instances_evaluated": 720,
+    "hill_climb_steps": 320,
+    "orders": [
+      "AB",
+      "BA"
+    ],
+    "m_range": [
+      1,
+      5
+    ],
+    "max_ratio_overall": "0.998620503954594",
+    "max_ratio_by_order_kind_m": {
+      "AB/dist/m=1": "0.994234092256",
+      "AB/dist/m=2": "0.998620503955",
+      "AB/dist/m=3": "0.987126538346",
+      "AB/dist/m=4": "0.985869314824",
+      "AB/dist/m=5": "0.982388775007",
+      "AB/resid/m=1": "0.971348503060",
+      "AB/resid/m=2": "0.984626275544",
+      "AB/resid/m=3": "0.990907224454",
+      "AB/resid/m=4": "0.985353197676",
+      "AB/resid/m=5": "0.998573500686",
+      "BA/dist/m=1": "0.941814036998",
+      "BA/dist/m=2": "0.955751791510",
+      "BA/dist/m=3": "0.927761219594",
+      "BA/dist/m=4": "0.929528363939",
+      "BA/dist/m=5": "0.929010495541",
+      "BA/resid/m=1": "0.995396747374",
+      "BA/resid/m=2": "0.969666418688",
+      "BA/resid/m=3": "0.936111523517",
+      "BA/resid/m=4": "0.914062966239",
+      "BA/resid/m=5": "0.931024593576"
+    },
+    "failure_threshold": "ratio > 1 + 1E-12"
+  },
+  "zamani_glineur_limit": [
+    {
+      "N": 1,
+      "delta": "1e-8",
+      "theorem8": "3.8490016734977337949589165e-1",
+      "zamani_glineur": "3.8490017945975050967276585e-1",
+      "abs_diff": "1.211e-8"
+    },
+    {
+      "N": 1,
+      "delta": "1e-16",
+      "theorem8": "3.8490017945975038857299379e-1",
+      "zamani_glineur": "3.8490017945975050967276585e-1",
+      "abs_diff": "1.211e-16"
+    },
+    {
+      "N": 1,
+      "delta": "1e-24",
+      "theorem8": "3.8490017945975050967276464e-1",
+      "zamani_glineur": "3.8490017945975050967276585e-1",
+      "abs_diff": "1.211e-24"
+    },
+    {
+      "N": 2,
+      "delta": "1e-8",
+      "theorem8": "2.8621668899563917282883620e-1",
+      "zamani_glineur": "2.8621670111997308114037423e-1",
+      "abs_diff": "1.212e-8"
+    },
+    {
+      "N": 2,
+      "delta": "1e-16",
+      "theorem8": "2.8621670111997295989703401e-1",
+      "zamani_glineur": "2.8621670111997308114037423e-1",
+      "abs_diff": "1.212e-16"
+    },
+    {
+      "N": 2,
+      "delta": "1e-24",
+      "theorem8": "2.8621670111997308114037302e-1",
+      "zamani_glineur": "2.8621670111997308114037423e-1",
+      "abs_diff": "1.212e-24"
+    },
+    {
+      "N": 3,
+      "delta": "1e-8",
+      "theorem8": "2.3801843151668138330963201e-1",
+      "zamani_glineur": "2.3801844364429469702138651e-1",
+      "abs_diff": "1.213e-8"
+    },
+    {
+      "N": 3,
+      "delta": "1e-16",
+      "theorem8": "2.3801844364429457574525194e-1",
+      "zamani_glineur": "2.3801844364429469702138651e-1",
+      "abs_diff": "1.213e-16"
+    },
+    {
+      "N": 3,
+      "delta": "1e-24",
+      "theorem8": "2.3801844364429469702138529e-1",
+      "zamani_glineur": "2.3801844364429469702138651e-1",
+      "abs_diff": "1.213e-24"
+    },
+    {
+      "N": 4,
+      "delta": "1e-8",
+      "theorem8": "2.0809834686113032790640211e-1",
+      "zamani_glineur": "2.0809835898999136310521770e-1",
+      "abs_diff": "1.213e-8"
+    },
+    {
+      "N": 4,
+      "delta": "1e-16",
+      "theorem8": "2.0809835898999124181660569e-1",
+      "zamani_glineur": "2.0809835898999136310521770e-1",
+      "abs_diff": "1.213e-16"
+    },
+    {
+      "N": 4,
+      "delta": "1e-24",
+      "theorem8": "2.0809835898999136310521649e-1",
+      "zamani_glineur": "2.0809835898999136310521770e-1",
+      "abs_diff": "1.213e-24"
+    },
+    {
+      "N": 5,
+      "delta": "1e-8",
+      "theorem8": "1.8721481086310425363559618e-1",
+      "zamani_glineur": "1.8721482299256982114163344e-1",
+      "abs_diff": "1.213e-8"
+    },
+    {
+      "N": 5,
+      "delta": "1e-16",
+      "theorem8": "1.8721482299256969984697589e-1",
+      "zamani_glineur": "1.8721482299256982114163344e-1",
+      "abs_diff": "1.213e-16"
+    },
+    {
+      "N": 5,
+      "delta": "1e-24",
+      "theorem8": "1.8721482299256982114163222e-1",
+      "zamani_glineur": "1.8721482299256982114163344e-1",
+      "abs_diff": "1.213e-24"
+    },
+    {
+      "N": 6,
+      "delta": "1e-8",
+      "theorem8": "1.7157565108013429949889492e-1",
+      "zamani_glineur": "1.7157566320993792738440822e-1",
+      "abs_diff": "1.213e-8"
+    },
+    {
+      "N": 6,
+      "delta": "1e-16",
+      "theorem8": "1.7157566320993780608636988e-1",
+      "zamani_glineur": "1.7157566320993792738440822e-1",
+      "abs_diff": "1.213e-16"
+    },
+    {
+      "N": 6,
+      "delta": "1e-24",
+      "theorem8": "1.7157566320993792738440701e-1",
+      "zamani_glineur": "1.7157566320993792738440822e-1",
+      "abs_diff": "1.213e-24"
+    }
+  ],
+  "asymptotic_ratios": [
+    {
+      "a": "1",
+      "b": "0.5",
+      "R": "3",
+      "order": "AB",
+      "m": 100,
+      "kappa": "0.874066696148973",
+      "ratio": "0.9493361950"
+    },
+    {
+      "a": "1",
+      "b": "0.5",
+      "R": "3",
+      "order": "AB",
+      "m": 1000,
+      "kappa": "0.874066696148973",
+      "ratio": "0.9945407903"
+    },
+    {
+      "a": "1",
+      "b": "0.5",
+      "R": "3",
+      "order": "AB",
+      "m": 10000,
+      "kappa": "0.874066696148973",
+      "ratio": "0.9994497115"
+    },
+    {
+      "a": "1",
+      "b": "0.5",
+      "R": "3",
+      "order": "BA",
+      "m": 100,
+      "kappa": "0.874066696148973",
+      "ratio": "0.9478660133"
+    },
+    {
+      "a": "1",
+      "b": "0.5",
+      "R": "3",
+      "order": "BA",
+      "m": 1000,
+      "kappa": "0.874066696148973",
+      "ratio": "0.9943769309"
+    },
+    {
+      "a": "1",
+      "b": "0.5",
+      "R": "3",
+      "order": "BA",
+      "m": 10000,
+      "kappa": "0.874066696148973",
+      "ratio": "0.9994331334"
+    },
+    {
+      "a": "0.3",
+      "b": "0.2",
+      "R": "1",
+      "order": "AB",
+      "m": 100,
+      "kappa": "0.874665715643834",
+      "ratio": "0.9488117000"
+    },
+    {
+      "a": "0.3",
+      "b": "0.2",
+      "R": "1",
+      "order": "AB",
+      "m": 1000,
+      "kappa": "0.874665715643834",
+      "ratio": "0.9944812608"
+    },
+    {
+      "a": "0.3",
+      "b": "0.2",
+      "R": "1",
+      "order": "AB",
+      "m": 10000,
+      "kappa": "0.874665715643834",
+      "ratio": "0.9994436767"
+    },
+    {
+      "a": "0.3",
+      "b": "0.2",
+      "R": "1",
+      "order": "BA",
+      "m": 100,
+      "kappa": "0.874665715643834",
+      "ratio": "0.9479303308"
+    },
+    {
+      "a": "0.3",
+      "b": "0.2",
+      "R": "1",
+      "order": "BA",
+      "m": 1000,
+      "kappa": "0.874665715643834",
+      "ratio": "0.9943829787"
+    },
+    {
+      "a": "0.3",
+      "b": "0.2",
+      "R": "1",
+      "order": "BA",
+      "m": 10000,
+      "kappa": "0.874665715643834",
+      "ratio": "0.9994337326"
+    }
+  ],
+  "cycle_counts": [
+    {
+      "R_over_delta": 10,
+      "eps": "1e-3",
+      "exact_N": 93,
+      "leading_order_count": "172.7",
+      "corollary_A3_N": 212,
+      "classical_N": 833
+    },
+    {
+      "R_over_delta": 10,
+      "eps": "1e-6",
+      "exact_N": 243,
+      "leading_order_count": "345.4",
+      "corollary_A3_N": 383,
+      "classical_N": 1666
+    },
+    {
+      "R_over_delta": 100,
+      "eps": "1e-3",
+      "exact_N": 9326,
+      "leading_order_count": "17269.4",
+      "corollary_A3_N": 27048,
+      "classical_N": 70464
+    },
+    {
+      "R_over_delta": 100,
+      "eps": "1e-6",
+      "exact_N": 24428,
+      "leading_order_count": "34538.8",
+      "corollary_A3_N": 44316,
+      "classical_N": 140926
+    }
+  ],
+  "two_radius_vs_equal": [
+    {
+      "a": "0.3",
+      "b": "0.2",
+      "R": "1",
+      "m": 1,
+      "two_radius": "0.287390652196",
+      "theorem1_delta_min": "0.355057020784",
+      "ratio": "0.809421"
+    },
+    {
+      "a": "0.3",
+      "b": "0.2",
+      "R": "1",
+      "m": 3,
+      "two_radius": "0.132604635359",
+      "theorem1_delta_min": "0.195220073420",
+      "ratio": "0.679257"
+    },
+    {
+      "a": "0.3",
+      "b": "0.2",
+      "R": "1",
+      "m": 5,
+      "two_radius": "0.075387014288",
+      "theorem1_delta_min": "0.127621877144",
+      "ratio": "0.590706"
+    },
+    {
+      "a": "0.2",
+      "b": "0.3",
+      "R": "1",
+      "m": 1,
+      "two_radius": "0.272892012409",
+      "theorem1_delta_min": "0.355057020784",
+      "ratio": "0.768586"
+    },
+    {
+      "a": "0.2",
+      "b": "0.3",
+      "R": "1",
+      "m": 3,
+      "two_radius": "0.127308891316",
+      "theorem1_delta_min": "0.195220073420",
+      "ratio": "0.652130"
+    },
+    {
+      "a": "0.2",
+      "b": "0.3",
+      "R": "1",
+      "m": 5,
+      "two_radius": "0.072647505678",
+      "theorem1_delta_min": "0.127621877144",
+      "ratio": "0.569240"
+    }
+  ],
+  "checks_by_section": {
+    "(i)-(iii) exact rational states": 12863,
+    "(i)-(ii) random irrational states (Decimal 60)": 2400,
+    "(iv) kappa and c_XY closed forms vs arccos/arcsin formulas (Decimal 60)": 960,
+    "(v) monotonicity of V^XY_k in r and t; Lemma 4' comparison (Decimal 60)": 10584,
+    "(vi) attainment by the two-halfspace construction (exact, then Decimal at the optimum)": 3216,
+    "(vii) randomized adversarial search on polygons and disc-halfspace sets (Decimal 60)": 11726,
+    "(viii) delta -> 0 limit of Theorem 8 with m = 2N vs Zamani-Glineur": 18,
+    "(ix) asymptotic ratio W_m e m / (w'(kappa) kappa^{m+1}) -> 1": 12,
+    "(x) practical cycle counts: smallest N with W_N(R,delta)/R <= eps": 36,
+    "(xi) two-radius value vs Theorem 1 with delta = min(a,b)": 6
+  },
+  "checks_evaluated": 41821,
+  "checks_failed": 0,
+  "first_failures": [],
+  "status": "PASS",
+  "python_optimize_flag": 0,
+  "manuscript_sha256": "396ada5b6bf217cc16f66163111287ef2f4894d2e1d4edc3121a91ecec2d4905",
+  "elapsed_seconds": 31.15
+}

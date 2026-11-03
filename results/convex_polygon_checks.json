@@ -1,0 +1,26 @@
+{
+  "python": "3.11.14",
+  "seed": 20261101,
+  "decimal_precision": 80,
+  "counts": {
+    "instances": 160,
+    "full_cycle_comparisons": 1280,
+    "nonzero_final_errors": 960,
+    "zero_final_errors": 320,
+    "threshold_instances": 10,
+    "multi_facet_instances": 120
+  },
+  "largest_observed_error_over_formula": "0.99939696445598565614614332929246413991359732260871889892592700863736365464610717",
+  "case_at_largest_ratio": {
+    "case": 92,
+    "N": 4,
+    "R_squared": "17"
+  },
+  "scope": "Exact rational polygon projections; rounded high-precision scalar comparisons. Finite diagnostics, not a proof or an exhaustive extremal search.",
+  "manuscript_sha256": "396ada5b6bf217cc16f66163111287ef2f4894d2e1d4edc3121a91ecec2d4905",
+  "checks_evaluated": 4688,
+  "checks_failed": 0,
+  "first_failures": [],
+  "status": "PASS",
+  "python_optimize_flag": 0
+}

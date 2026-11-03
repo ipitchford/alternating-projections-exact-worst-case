@@ -1,0 +1,22 @@
+{
+  "scope": "Finite exact-rational identities and inequalities, not a formal or exhaustive proof.",
+  "arithmetic": "fractions.Fraction only; no floating point",
+  "python": "3.11.14",
+  "counts": {
+    "inverse_branches": 216,
+    "half_map_invariance": 108,
+    "transition_polynomials": 540,
+    "value_candidates": 1275,
+    "fixed_residual_radius_monotonicity": 1620,
+    "metric_normal_decompositions": 504,
+    "metric_coordinate_inequalities": 2016,
+    "metric_sharp_equality_cases": 72
+  },
+  "manuscript_sha256": "396ada5b6bf217cc16f66163111287ef2f4894d2e1d4edc3121a91ecec2d4905",
+  "checks_evaluated": 15717,
+  "checks_failed": 0,
+  "first_failures": [],
+  "status": "PASS",
+  "python_optimize_flag": 0
+}
+exact_rational_checks.json: 15717 explicit checks, 0 failed
